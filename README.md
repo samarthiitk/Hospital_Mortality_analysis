@@ -1,115 +1,56 @@
-# 🏥 Hospital Mortality Analysis & Dashboard
+🏥 Hospital Mortality Analysis & Dashboard
+🚀 Overview
 
-<p align="center">
-  <img src="Hospital_Mortality_Dasboard.png" width="900"/>
-</p>
+This project analyzes hospital patient data to identify key factors influencing in-hospital mortality. Using SQL for data analysis and a dashboard for visualization, it uncovers patterns in patient demographics, ICU performance, and clinical indicators that impact survival outcomes.
 
----
+🎯 Objective
 
-## 🚀 Project Overview
+To identify major predictors of hospital mortality and generate insights that can support better clinical decision-making and patient risk assessment.
 
-This project analyzes hospital patient data to identify key factors influencing in-hospital mortality.
+🛠️ Tools & Technologies
+SQL (MySQL)
+Data Analysis & Cleaning
+Tableau / BI Tool (Visualization)
+Excel (Preprocessing)
+📂 Project Files
+Hospital_Mortality_SQL_Analysis.sql → SQL queries used for analysis
+Hospital_Mortality_Dashboard.png → Dashboard visualization
+README.md → Project documentation
+🔍 Approach
+Data Preparation
+Cleaned and structured dataset by handling missing values (e.g., ethnicity)
+Standardized data for consistent analysis
+SQL Analysis
+Calculated overall mortality rate
+Performed demographic analysis (age, gender, ethnicity)
+Compared mortality across ICU types and admission sources
+Analyzed impact of comorbidities on patient outcomes
+Evaluated length of stay and vital indicators
+Visualization
+Designed a dashboard to present mortality trends and patient distributions
+Summarized key metrics to make insights easier to interpret
+📊 Key Insights
+Overall Mortality Rate: ~6.3% of admitted patients
+Age Factor: Patients above 60 show significantly higher mortality risk
+ICU Trends: Certain ICU types and admission sources indicate higher criticality
+Comorbidities: Conditions like diabetes and immunosuppression are strongly linked to higher mortality
+Length of Stay: Longer ICU stays are associated with increased risk
+Health Indicators: Elevated heart rates correlate with critical conditions
+💡 Conclusion
 
-Using SQL for data analysis and a dashboard for visualization, the project uncovers patterns in patient demographics, ICU performance, and clinical indicators that impact survival outcomes.
+The analysis highlights age, comorbidities, ICU type, and length of stay as key drivers of hospital mortality. These insights can help:
 
----
+Identify high-risk patients early
+Support better ICU resource allocation
+Improve treatment prioritization
+🔮 Future Improvements
+Apply machine learning models for mortality prediction
+Include additional variables (treatments, medications, socioeconomic factors)
+Enhance dashboard depth with more detailed breakdowns
+👤 Author
 
-## 🎯 Objective
+Samarth Singh
 
-To identify major predictors of hospital mortality and provide insights that can help improve patient care and clinical decision-making.
+⭐ If you found this useful
 
----
-
-## 🛠️ Tools & Technologies
-
-* SQL (MySQL)
-* Data Analysis
-* Data Cleaning
-* Dashboard Visualization (Tableau / BI Tool)
-* Excel (Preprocessing)
-
----
-
-## 📂 Project Files
-
-* `Hospital_Mortality_SQL_Analysis.sql` → SQL queries for analysis
-* `Hospital_Mortality_Dasboard.png` → Dashboard visualization
-* `README.md` → Project documentation
-
----
-
-## 🔍 Approach
-
-1. **Data Cleaning**
-
-   * Handled missing values (e.g., ethnicity)
-   * Structured dataset for analysis
-
-2. **SQL Analysis**
-
-   * Mortality rate calculation
-   * Demographic analysis (age, gender, ethnicity)
-   * ICU-based comparisons
-   * Comorbidity impact analysis
-   * Length of stay evaluation
-
-3. **Data Visualization**
-
-   * Built an interactive dashboard
-   * Highlighted key trends and insights
-   * Simplified complex data for better understanding
-
----
-
-## 📊 Key Insights
-
-* **Overall Mortality Rate:** ~6.3% of admitted patients
-* **Age Factor:** Mortality significantly increases with age, especially above 60
-* **ICU Insights:** Certain ICU types and admission sources show higher death rates
-* **Comorbidities:** Conditions like diabetes and immunosuppression strongly impact mortality
-* **Length of Stay:** Longer ICU stays are associated with higher risk
-* **Heart Rate & Health Indicators:** Elevated heart rates correlate with critical conditions
-
----
-
-## 📈 Dashboard Highlights
-
-The dashboard provides:
-
-* Patient distribution by age and BMI
-* Death vs survival comparison across ICU types
-* Average length of stay analysis
-* Mortality trends across demographics
-
----
-
-## 💡 Conclusion
-
-The analysis reveals that **age, comorbidities, ICU type, and length of stay** are key drivers of hospital mortality.
-
-These insights can help healthcare professionals:
-
-* Identify high-risk patients early
-* Improve ICU resource allocation
-* Enhance treatment strategies
-
----
-
-## 🔮 Future Improvements
-
-* Integrate real-time hospital data
-* Apply machine learning models for prediction
-* Include additional variables (treatment, medications, socioeconomic factors)
-* Build a fully interactive dashboard
-
----
-
-## 👤 Author
-
-**Samarth Singh**
-
----
-
-## ⭐ If you found this useful
-
-Give this repository a star on GitHub!
+Consider giving the repository a star on GitHub
